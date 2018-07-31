@@ -1,0 +1,31 @@
+<head>
+    <title>Package Spike</title>
+
+    <script type="text/javascript" src="node_modules/infusion/dist/infusion-all.min.js"></script>
+
+    <script type="text/javascript" src="node_modules/jszip/dist/jszip.min.js"></script>
+
+    <script type="text/javascript" src="node_modules/file-saver/FileSaver.min.js"></script>
+
+    <script type="text/javascript" src="src/js/packageSpike.js"></script>
+</head>
+<body>
+    <div class="sjrkc-packageSpike">
+    <form class="sjrkc-packageSpike-form">
+        <div>
+            <textarea class="sjrkc-packageSpike-form-text">
+
+            </textarea>
+        </div>
+        <div>
+            <input type="file" class="sjrkc-packageSpike-form-file"/>
+        </div>
+        <div>
+            <button type="button" class="sjrkc-packageSpike-form-package">Package</button>
+        </div>
+    </form>
+    </div>
+    <script>
+        sjrk.packageSpike(".sjrkc-packageSpike");
+    </script>
+</body>
